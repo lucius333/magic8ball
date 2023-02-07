@@ -9,16 +9,16 @@ console.log(`${userName} asked: ${userQuestion}`);
 
 switch (randomNumber) {
   case 0:
-    eightBall = 'It is certain';
+    eightBall = 'It is certain!';
     break;
   case 1:
-    eightBall = 'It is decidedly so';
+    eightBall = 'It is decidedly so!';
     break;
   case 2:
-    eightBall = 'It is uncertain';
+    eightBall = 'It is uncertain!';
     break;
   case 3:
-    eightBall = 'Cannot predict now';
+    eightBall ='Yes, definitely!';
     break;
   case 4:
     eightBall = 'Do not count on it';
@@ -27,10 +27,10 @@ switch (randomNumber) {
     eightBall = 'My sources say no';
     break;
   case 6:
-    eightBall = 'It seems not';
+    eightBall = 'My reply is no!';
     break;
   case 7:
-    eightBall = 'Signs point to yes';
+    eightBall = 'Very doubtful!';
   default:
     console.log(`There appears to be a problem ${userName}! Please contact nine bal services.`);
 }
